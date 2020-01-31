@@ -1,0 +1,59 @@
+.text {
+    font-size:20px;
+    font-family: url('https://fonts.google.com/specimen/Roboto');
+    text-transform: uppercase;
+    
+}
+
+p::before { 
+    content: "«";
+    font-family: url('https://www.cssfontstack.com/Lato');
+    color: blue;
+  }
+  
+p::after { 
+    content: "»";
+    font-family: 'lato';
+    color: red;
+  }
+
+li.startLi {
+    font-weight:bold;
+  }
+  
+li.startLi:first-of-type {
+    color: rgb(233, 13, 13);
+  }
+li.startLi:last-of-type {
+    color: rgb(216, 33, 161);
+  }
+
+.secondUl {
+    width: 420px;
+    height: 290px;
+    
+  }
+
+.nextLi {
+    padding:8px 55px 8px 55px;
+    border: solid 0.5px black;
+    background-color: rgb(223, 215, 215);
+    display: inline-block;
+    margin:0px 5px 5px 0px;
+    font-weight:bold;
+    font-size: small;
+  }
+
+  #nextDiv {
+    display: inline-block;
+  }
+
+  .nextLi:nth-child(3) {
+      background-color: rgb(12, 247, 12);
+  }
+
+ .nextLi:last-child {
+     background-color: rgb(12, 247, 12);
+ }
+
+ 

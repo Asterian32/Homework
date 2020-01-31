@@ -1,0 +1,46 @@
+
+HTML,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #aaa2a2;
+    height: 15%;
+}
+
+nav {
+    background-color: green;
+    height: 10%;
+}
+
+section#sidebar {
+    background-color: rgb(91, 86, 150);
+    height:65% ;
+    width:25%;
+    float: left;
+}
+
+
+section#content {
+    background-color: rgb(125, 187, 202);
+    height: 65%;
+    width: 50%;
+    float: left;
+}
+
+aside {
+    background-color: rgb(91, 86, 150);
+    height: 65%;
+    width: 25%;
+    float: left;
+}
+
+footer {
+    background-color: rgb(209, 201, 201);
+    height: 10%;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+}

@@ -1,0 +1,65 @@
+.text {
+    font-size:1.5em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: justify;
+    line-height: 1.4em;
+    word-spacing: 0.05em;
+    color:rgb(8, 173, 30);
+}
+
+#Facebook {
+    color:grey;
+    font-size:120px;
+    margin:50px;
+}
+
+#Facebook:hover {
+    color:rgba(6, 6, 216, 0.473);
+    font-size:120px;
+    margin:50px;
+}
+
+#Youtube {
+    color:grey;
+    font-size:120px;
+    margin:50px;
+}
+
+#Youtube:hover {
+    color: #bb0000;
+    font-size:120px;
+    margin:50px;
+}
+
+#Instagram {
+    color:grey;
+    font-size:130px;
+    margin:50px;
+}
+
+#Instagram:hover {
+    color: #fff ;
+    font-size:130px;
+    margin:50px;
+    border-radius:35px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 
+    25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,
+    #e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 
+    25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+#Pinterest {
+    color:grey;
+    font-size:120px;
+    margin:50px;
+}
+
+#Pinterest:hover {
+    color: #cb2027;
+    font-size:120px;
+    margin:50px;
+}
